@@ -8,7 +8,8 @@ namespace ExampleMod;
 
 public class Main : MelonMod
 {
-    public override void OnUpdate() {
+    public override void OnUpdate() 
+    {
         if (Input.GetKeyDown(KeyCode.P))
         {
             LoggerInstance.Msg("Pressed the P key!");

@@ -41,7 +41,7 @@
     </Reference>
   </ItemGroup>
 	
-  <Target Name="CopyMods" AfterTargets="Build">
+  <Target Name="CopyMod" AfterTargets="Build">
     <Message Text="Copying $(TargetDir)$(AssemblyName).dll to $(GameFolder)\Mods Folder..." Importance="High" />
     <Copy SourceFiles="$(TargetDir)$(AssemblyName).dll" DestinationFolder="$(GameFolder)\Mods" />
     <Message Text="Copied to Mods Folder..." Importance="High" />
