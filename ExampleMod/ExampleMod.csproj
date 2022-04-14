@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	<DebugType>embedded</DebugType>
+    <DebugType>embedded</DebugType>
 
     <!-- Replace the path here with the path of the game you're modding -->
     <GameFolder>C:\Program Files (x86)\Steam\steamapps\common\MyCoolGame</GameFolder> 
