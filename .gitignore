@@ -1,3 +1,5 @@
-.idea\
-.vs\
+.idea
+.vs
 *.user
+bin
+obj
